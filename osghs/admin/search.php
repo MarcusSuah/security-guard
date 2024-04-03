@@ -57,7 +57,7 @@ if (strlen($_SESSION['osghsaid']==0)) {
     <!-- Main content -->
     <section class="content">
       <div class="row">
-        <div class="col-12">
+        <div class="col-8">
         
           <div class="card">
 
@@ -69,7 +69,7 @@ if (strlen($_SESSION['osghsaid']==0)) {
                 <input id="searchdata" type="text" name="searchdata" required="true" class="form-control" placeholder="Enter Your Booking Number/ Name / Mobile no.">
               </div>
               <br>
-              <div class="col-md-6" style="padding-top: 300px;">
+              <div class="col-md-6" style="padding-top: 30px; align-itmms: center">
                  <button type="submit" class="btn btn-primary" name="search" id="submit">Search</button>
               </div>
             </div>
